@@ -3,3 +3,53 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* 
+body -> main -> div ;
+*/
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+    background-color: aliceblue;
+
+}
+.wrapper { 
+    display: flex;
+    height: 50vh;
+    gap: 1rem;
+}
+.txt { 
+    align-items:flex-end;
+}
+
+
+.card-1 {
+    background-image: url("./img/img-1.jpg");
+}
+.card-2 {
+    background-image: url("./img/img-2.jpg");
+}
+.card-3 {
+    background-image: url("./img/img-3.jpg");
+}
+.card-4 {
+    background-image: url("./img/img-4.jpg");
+}
+.card-5 {
+    background-image: url("./img/img-5.jpg");
+} 
+
+.card { 
+    width: 5rem;
+    border-radius: 2rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.active { 
+    width: 30rem;
+}
